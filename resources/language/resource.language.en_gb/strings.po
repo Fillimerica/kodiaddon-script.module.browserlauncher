@@ -1,0 +1,141 @@
+# Kodi Media Center language file
+# Addon Name: Browser Launcher
+# Addon id: plugin.program.browserlauncher
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: English\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+### Start of the contextitem localization.
+
+msgctxt "#30001"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Yes"
+msgstr ""
+
+msgctxt "#30008"
+msgid "General"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Use custom Browser/script path"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Browser/script path"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Use an isolated user profile?"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Select a Web Browser"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Select the Browser to Use"
+msgstr ""
+
+msgctxt "#30015"
+msgid "A browser selection needs to be made."
+msgstr ""
+
+msgctxt "#30016"
+msgid "Open Settings Dialog?"
+msgstr ""
+
+msgctxt "#30017"
+msgid "The configured web browser can not be found on the computer."
+msgstr ""
+
+msgctxt "#30025"
+msgid "No parameter passed, must pass at least 1 value to be valid."
+msgstr "" 
+
+msgctxt "#30026"
+msgid "Unsupported Operating System Platform."
+msgstr "" 
+
+
+
+
+
+
+### Old #s
+
+msgctxt "#30001"
+msgid "Add Website"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Remove Website"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Title"
+msgstr ""
+
+msgctxt "#30004"
+msgid "URL"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Browser not found"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Edit Website Settings"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Thumbnail"
+msgstr ""
+
+msgctxt "#30008"
+msgid "General"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Stop Kodi playback?"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Use custom Browser/script path"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Browser/script path"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Use own user profile (Chrome, Firefox, Opera)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Webbrowser"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Use kiosk mode?"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Custom Browser"
+msgstr ""
+
+msgctxt "#30025"
+msgid "No parameter passed, must pass at least 1 value to be valid."
+msgstr "" 
+
+msgctxt "#30026"
+msgid "Unsupported Operating System Platform."
+msgstr "" 
