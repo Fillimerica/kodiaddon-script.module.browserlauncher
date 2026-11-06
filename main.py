@@ -10,6 +10,7 @@
 import sys
 import os
 import urllib.parse
+import shlex
 import xbmc
 import xbmcaddon
 import xbmcgui
@@ -187,6 +188,9 @@ def browserOptions(selBrowser):
         else:
             browOpts.append(selBrowser.agent)
             browOpts.append(userAgent)
+    if (selBrowser.extra):
+        # Unpack the grouped options.
+        browOpts.extend(shlex.split(selBrowser.extra))
     return browOpts
 
 def browserLaunch(url,stopPlayback):

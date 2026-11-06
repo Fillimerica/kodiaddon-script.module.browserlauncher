@@ -161,8 +161,7 @@ def createDefaultIndexPage(browIndex:int):
 
 def createProfileFirefox(profile_path: str, browIndex: int):
     # Display a status message to the user as this process may take some time.
-    p_dialog = xbmcgui.DialogProgressBG()
-    p_dialog.create(addon_name,translation(30030))
+    xbmcgui.Dialog().notification(addon_name,translation(30030),xbmcgui.NOTIFICATION_INFO,10000,False)
     
     # Prep the target profile folder to make sure it exists.
     xbmcvfs.mkdirs(profile_path)
@@ -183,13 +182,13 @@ def createProfileFirefox(profile_path: str, browIndex: int):
     # Pass the profile creation command to the browser.
     process = subprocess.run(cmd)
    
-    # All finished, remove the processing message
-    p_dialog.close()
+    # All finished, show a short processing completed message
+    xbmcgui.Dialog().notification(addon_name,translation(30035),xbmcgui.NOTIFICATION_INFO,5000,False)
+
 
 def createProfileChrome(profile_path: str, browIndex: int):
     # Display a status message to the user as this process may take some time.
-    p_dialog = xbmcgui.DialogProgressBG()
-    p_dialog.create(addon_name,translation(30030))
+    xbmcgui.Dialog().notification(addon_name,translation(30030),xbmcgui.NOTIFICATION_INFO,10000,False)
     
     # Prep the target profile folder to make sure it exists.
     xbmcvfs.mkdirs(profile_path)
@@ -205,12 +204,11 @@ def createProfileChrome(profile_path: str, browIndex: int):
     process = subprocess.run(cmd)
    
     # All finished, remove the processing message
-    p_dialog.close()
+    xbmcgui.Dialog().notification(addon_name,translation(30035),xbmcgui.NOTIFICATION_INFO,5000,False)
 
 def createProfileWebkit(profile_path: str, browIndex: int):
     # Display a status message to the user as this process may take some time.
-    p_dialog = xbmcgui.DialogProgressBG()
-    p_dialog.create(addon_name,translation(30030))
+    xbmcgui.Dialog().notification(addon_name,translation(30030),xbmcgui.NOTIFICATION_INFO,10000,False)
     
     # Prep the target profile folder to make sure it exists.
     xbmcvfs.mkdirs(profile_path)
@@ -226,7 +224,7 @@ def createProfileWebkit(profile_path: str, browIndex: int):
     process = subprocess.run(cmd)
    
     # All finished, remove the processing message
-    p_dialog.close()
+    xbmcgui.Dialog().notification(addon_name,translation(30035),xbmcgui.NOTIFICATION_INFO,5000,False)
 
 # Main module initialization code
 
